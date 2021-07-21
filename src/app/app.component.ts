@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public visibility :boolean = true ; 
   title = 'my-project';
-}
+  changeVisibility() {
+    this.visibility=false ;
+  }
+  }
+

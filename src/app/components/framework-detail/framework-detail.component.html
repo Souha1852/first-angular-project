@@ -1,0 +1,122 @@
+<div [ngSwitch]="name">
+    <div *ngSwitchCase = "'Angular'">
+        <h1>About {{name}}</h1>
+        <h2>Angular is a platform and framework for building single-page client applications using HTML and TypeScript. 
+            Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries 
+            that you import into your applications.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Build features quickly with simple, declarative templates. Extend the template language with your own components and use a wide array of existing components. Get immediate Angular-specific help and feedback with nearly every IDE and editor.
+            All this comes together so you can focus on building amazing apps rather than trying to make the code work.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Vue.js'">
+        <h1>About {{name}}</h1>
+        <h2>Vue. js is a progressive framework for JavaScript used to build web interfaces and one-page applications. Not just for web interfaces, 
+            Vue. js is also used both for desktop and mobile app development with Electron framework</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Library modularization using a framework is common in frontend development. Both React and Angular have modularization. 
+            But what differentiates Vue.js from other alternatives is its “high decoupling”, how easy it is to extend functionalities, 
+            and how well all parts work once more modules are included. For example, if we want to organize and render small visual 
+            components, all we need is Vue.js’s ‘core’ library; it is unnecessary to include additional libraries..</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'React'">
+        <h1>About {{name}}</h1>
+        <h2>React.js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.
+             It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>With the front-end world-changing on a daily basis, it’s hard to devote time to learning a new framework – especially when that framework could ultimately become a dead end. 
+            So, if you're looking for the next best thing but you're feeling a little bit lost in the framework jungle, I suggest checking out React.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Ember.js'">
+        <h1>About {{name}}</h1>
+        <h2>Ember.js is an open-source JavaScript web framework, utilizing a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms,
+             best practices, and patterns from other single-page-app ecosystem patterns into the framework.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Some of the best development teams in the world have been iterating on their products for years with Ember. With scalable UI architecture baked-in from the start, 
+            you'll be working with the same patterns these organizations use every step of the way.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Svelte'">
+        <h1>About {{name}}</h1>
+        <h2>Svelte is a tool for building fast web applications. It is similar to JavaScript frameworks such as React and Vue, 
+            which share a goal of making it easy to build slick interactive user interfaces.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Svelte lets you write blazing fast web applications with minimal boilerplate, reduced complexity, and smaller bundle size. 
+            Yes, we have heard the same promise many times before as well from other cool-and-shiny projects like Angular, React, Vue,
+            and others.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Foundation'">
+        <h1>About {{name}}</h1>
+        <h2>The Foundation framework is a front-end framework that integrates the classic Web design languages HTML
+            and Cascading Style Sheets (CSS) with other tools and controls to provide a responsive environment for design.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web; 
+            Foundation: The most advanced responsive front-end framework in the world</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Laravel'">
+        <h1>About {{name}}</h1>
+        <h2>Laravel is primarily used for building custom web apps using PHP. It's a web 
+            framework that handles many things that are annoying to build yourself, such as routing, templating HTML, 
+            and authentication</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Laravel scores better than other web frameworks because of its advanced features and development tools that facilitate 
+            rapid web application development.
+            Laravel also helps website developers simplify their development process with clean and reusable code</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Express.js'">
+        <h1>About {{name}}</h1>
+        <h2>Express.js, or simply Express, is a back end web application framework for Node. js, released as free and open-source software under the MIT License. 
+            It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Express. js makes it easier to manage web applications.It is a part of a javascript based technology called MEAN software stack which stands for MongoDB, ExpressJS, AngularJS, 
+            and Node. ... Express. js is the backend part of MEAN and manages routing, sessions, HTTP requests, error handling, etc</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Next.js'">
+        <h1>About {{name}}</h1>
+        <h2>Next.js lets you build server-side rendering and static web applications using React. It's a great tool to build your next website. 
+            It has many great features and advantages, which can make Nextjs your first option for building your next web application</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Next.js gives you the best developer experience with all the features you need for production: 
+            hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Django'">
+        <h1>About {{name}}</h1>
+        <h2>Django is an open-source python web framework used for rapid development, pragmatic, maintainable, clean design, and secures websites. ...
+            The main goal of the Django framework is to allow developers to focus on components of the application that are new instead of 
+            spending time on already developed components.</h2>
+        <h1>Why {{name}}</h1>
+        <h2> Its main goals are simplicity, flexibility, reliability, and scalability. Django has its own naming system for all 
+            functions and components (e.g., HTTP responses are called “views”)</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'Flask'">
+        <h1>About {{name}}</h1>
+        <h2>Flask is an API of Python that allows us to build up web-applications. It was developed by Armin Ronacher. Flask's framework is more explicit than Django's 
+            framework and is also easier to learn because it has less base code to implement a simple web-Application.</h2>
+        <h1>Why {{name}}</h1>
+        <h2>Flask is an excellent web development framework for REST API creation. It is built on top of Python which makes it powerful to use all
+             the python features. It support all other web development languages like Js, React angular HTML and CSS.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>
+    <div *ngSwitchCase = "'SpringBoot'">
+        <h1>About {{name}}</h1>
+        <h2>Spring Boot helps developers create applications that just run. Specifically, it lets you create standalone applications that run on their own, without
+             relying on an external web server,by embedding a web server such as Tomcat or Netty into your app during the 
+             initialization process</h2>
+        <h1>Why {{name}}</h1>
+        <h2>The main goal of the Spring Boot framework is to reduce overall development time and increase efficiency 
+            by having a default setup for unit and integration tests. If you want to get started quickly with your Java application, 
+            you can easily accept all defaults and avoid the XML configuration completely.</h2>
+        <app-nav-bar></app-nav-bar>
+    </div>   
+    <div *ngSwitchDefault>
+        <app-page-not-found></app-page-not-found>
+    </div>  
+</div>

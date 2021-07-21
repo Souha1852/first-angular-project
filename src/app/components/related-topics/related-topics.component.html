@@ -1,0 +1,10 @@
+<h2>Related topics :</h2>
+<div> 
+    <ul *ngFor ="let topic of topics">
+        <li class ="box">
+            <div><a class ="numberStyle">{{topic.id}} </a></div>
+            <div> <a class ="textStyle">{{topic.description}} </a></div>
+            <div><button (click)="readMore(topic)" class="button">READ MORE...</button></div>
+        </li>
+    </ul>
+</div>

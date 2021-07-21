@@ -1,0 +1,55 @@
+<div>
+<ul *ngFor ="let framework of frameworks">
+    <li (click)="onSelect(framework)" id="box" [ngSwitch]="framework.id">
+        <div *ngSwitchCase ="1">
+            <a><img src="/assets/data/logo1.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="2">
+            <a><img src="/assets/data/logo2.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="3">
+            <a><img src="/assets/data/logo3.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="4">
+            <a><img src="/assets/data/logo4.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="5">
+            <a><img src="/assets/data/logo5.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="6">
+            <a><img src="/assets/data/logo6.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="7">
+            <a><img src="/assets/data/logo7.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="8">
+            <a><img src="/assets/data/logo8.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="9">
+            <a><img src="/assets/data/logo9.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="10">
+            <a><img src="/assets/data/logo10.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="11">
+            <a><img src="/assets/data/logo11.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+        <div *ngSwitchCase ="12">
+            <a><img src="/assets/data/logo12.png"></a>
+            <a class="style">{{framework.name}}</a>
+        </div> 
+    </li>
+</ul>
+</div>
+<div><button (click)="goBack()" style="float:left" class ="button-style">Back</button></div>

@@ -1,0 +1,308 @@
+<div [ngSwitch]="id"class="scrollbar">
+            <div *ngSwitchCase="1">
+                <a class="box1">
+                    <h4> 1. Develop Iteratively </h4>
+                    <p>Critical risks are resolved before making large investments
+                    Initial iterations enable early user feedback
+                    Testing and integration are continuous
+                    Objective milestones provide short term focus</p>
+                </a>
+                <a class="box1">
+                    <h4> 2. Manage Requirements</h4>
+                    <p>Requirements are dynamic - expect them to change during software development
+                    User's own understanding of the requirements evolves over time
+                    Gain agreement with user on what the system should do and not how
+                    Maintain forward and backward traceability of requirements</p>
+                </a>
+                <a class="box1">
+                    <h4> 3. Use Component Based Architecture</h4>
+                    <p>Using components permits reuse
+                    Choice of thousands of commercially available components
+                    Improved maintainability and extensibility
+                    Promotes clean division of work among teams of developers</p>
+                </a>
+                <a class="box1">
+                    <h4> 4. Visually Model Software</h4>
+                    <p>Visual modeling improves our ability to manage software complexity
+                    Capture the structure and behavior of components
+                    Hide or expose details as appropriate for the task
+                    Promote unambiguous communication</p>
+                </a>
+                <a class="box1">
+                    <h4>5. Verify Software Quality</h4>
+                    <p>What is quality? - The characteristic of producing a product which meets or exceeds agreed upon requirements by some agreed upon objective measures.
+                    Develop test suites for each iteration and test for functionality ,reliability and performance
+                    </p>
+                </a>
+                <a class="box1">
+                    <h4>6. Control Changes to Software</h4>
+                    <p>
+                    Decompose the architecture into subsystems and assign responsibility of each subsystem to a team, 
+                    establish secure workspaces for each team i.e. each team is isolated from changes made in other workspaces.
+                    and plan put in place to introduce change in a particular iteration</p>
+                </a>
+                <button class ="button" (click)="goBack()">Back</button>
+            </div>
+            <div *ngSwitchCase="2">
+                <a class="box2">
+                    <h4> 1. Machine learning </h4>
+                    <p>
+                        Machine learning is a branch of artificial intelligence (AI) 
+                        and computer science which focuses on the use of data and algorithms to 
+                        imitate the way that humans learn, gradually improving its accuracy.
+                        Machine learning is an important component of the growing field of data science.
+                        Through the use of statistical methods, algorithms are trained to make 
+                        classifications or predictions, uncovering key insights within data mining projects.
+                        These insights subsequently drive decision making within applications and businesses, 
+                        ideally impacting key growth metrics. As big data continues to expand and grow,
+                        the market demand for data scientists will increase, requiring them to assist in the
+                        identification of the most relevant business questions and subsequently the data to answer them.
+                    </p>
+                </a>
+                <a class="box2">
+                    <h4> 2. Deep learning</h4>
+                    <p>
+                        Deep learning is a subset of machine learning, which is essentially a neural network with
+                        three or more layers. These neural networks attempt to simulate the behavior of the human
+                        brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data. 
+                        While a neural network with a single layer can still make approximate predictions, additional 
+                        hidden layers can help to optimize and refine for accuracy.
+                        Deep learning drives many artificial intelligence (AI) applications and services that improve 
+                        automation, performing analytical and physical tasks without human intervention. Deep learning 
+                        technology lies behind everyday products and services (such as digital assistants, voice-enabled 
+                        TV remotes, and credit card fraud detection) as well as emerging technologies (such as self-driving cars).
+                    </p>
+                </a>
+                <button class ="button" (click)="goBack()">Back</button>
+            </div>
+            <div *ngSwitchCase="3">
+                <a class="box3">
+                    <h4>1. READ THAT BOOK (SERIES) YOU’VE BEEN PUTTING OFF</h4>
+                    <p> 
+                        First on the list, is very much where you should be starting. I like nothing more than immersing myself 
+                        in a book, concentrating fully on the book, its characters and its storyline without distractions.
+                        We have that opportunity now. Books exercise the brain, build our vocabularies, lowers stress and 
+                        also enhances the imagination. Whether you prefer fiction or non-fiction, buy yourself some books and 
+                        start reading more this week. There really is no excuse as you can buy used books on Amazon for next to 
+                        nothing. Don’t forget, if you prefer audio, audiobooks might be the way forward for you
+                    </p>
+                </a>
+                <a class="box3">
+                    <h4> 2. WATCH A DOCUMENTARY SERIES ON NETFLIX</h4>
+                    <p>   
+                        This activity is a potential trap. Whilst watching a stimulating TV series on Netflix passes time, it 
+                        can do so in an unproductive manner and you might find yourself binge-watching programmes that won’t 
+                        really help you in any way, other than waste the free time you have. I’d suggest that, alongside your 
+                        normal TV watching habits, invest time in watching documentaries and learn about your favourite subjects. 
+                        You may choose to watch a documentary series on Netflix which you have never taken an interest in before, 
+                        which is great. The cost of a Netflix subscription is minimal and there are many factual programmes which
+                        you can get stuck into during quarantine. 
+                    </p> 
+                </a>
+                <a class="box3">   
+                    <h4>3. KEEP A BLOG/JOURNAL</h4>
+                    <p>    
+                        Keeping track of your thoughts, activities and learnings is always a good idea - and a highly productive 
+                        one at that. You might look back at this time and process your memories or even process your thoughts for
+                        the day or the week that has passed. You can do this privately on your computer, mobile or even better in
+                        a notebook. Consider going a step further and set up a personal blog that takes those daily experiences
+                        and turns them into weekly or monthly posts for others to read and learn from. Either way, putting pen 
+                        to paper once a day could be 15 minutes well spent. 
+                    </p> 
+                </a>
+                <a class="box3">
+                    <h4>4. ENROL ON A FREE COURSE</h4>
+                    <p>    
+                        Enrolling on a course and successfully passing tests and assignments will help build up your knowledge-base
+                        as well as your CV. The Open University, for example, offers a wide range of foundation-level courses for
+                        anyone to enrol for free and start learning from their catalogue of courses from history and the arts to 
+                        society, politics and law. A free profile on the OpenLearn website gives you access to your personal
+                        learning profile and record of achievements that you earn while you study. There are also a range of
+                        other courses you can learn from. Take a look at FutureLearn or Edx for other providers. 
+                    </p>
+                </a>
+                <a class="box3">   
+                    <h4> 5. LEARN A NEW SKILL</h4>
+                    <p>    
+                        Building up your qualifications by enrolling in courses can also be accompanied by learning new skills.
+                        This could be learning the rules of a game (Chess is a good example from my own list) or how to play an 
+                        instrument… or anything at all that takes time to get to grips with. Practising an instrument I think can
+                        be good fun, and it’s also an inventive way to keep yourself entertained and constantly learning. 
+                        This is the case when picking up a new instrument or upgrading your skills with an instrument you might
+                        have played all of your life. Skoove offers free piano lessons during the outbreak. 
+                    </p>
+                </a>
+                <a class="box3">    
+                    <h4>6. SET UP A WORKOUT ROUTINE</h4>
+                    <p>    
+                        How long have we all been looking to begin this activity? If you work out regularly, you will know that 
+                        the key to a successful and consistent workout regime is routine. And I don’t need to tell you about the 
+                        benefits of working out and keeping fit. Can you get your hands on some basic gym accessories? You actually 
+                        don’t even need such equipment if you follow some of the workout videos available on YouTube, such as the 
+                        Joe Wicks routine for which a few of my colleagues here at Orientation Marketing are undertaking. 
+                        his particular workout routine has also recently been awarded a Guinness World Record for the number 
+                        of live viewers to a workout.
+                    </p>
+                </a>
+                <a class="box3">    
+                    <h4>7. COMPLETE A DAILY PUZZLE</h4>
+                    <p>    
+                        Another great way to get the mind working first thing. Like reading books, solving puzzles offer a range 
+                        of benefits: Improved memory, better problem-solving skills and increased IQ are just some of them. This sort 
+                        of brain training can take many forms, such as jigsaws, Sudoku puzzles or crosswords which can be 
+                        ound/purchased easily and cheaply. You can also visit the App Store/Play Store on your mobile and access 
+                        a range of games that stimulate the mind. Set  30 minutes to try a puzzle each day. You don’t even need to
+                         complete them, just setting a designated time and then aiming to complete the puzzle in the allocated time 
+                         is enough.
+                    </p>
+                </a>
+                <a class="box3">    
+                    <h4>8. MEDITATE</h4>
+                    <p>    
+                        It’s important to be mindful of your surroundings as well as your wellbeing whilst in quarantine, 
+                        and meditation might help you get a bit of peace of mind in times of uncertainty. Find a quiet space, 
+                        light some candles and clear your mind with some therapeutic meditation music - more info here. Meditation 
+                        is one of the best things you can do right now to relieve stress and improve your wellbeing. 
+                        Aura and Headspace both offer help if you are new to meditation and mindfulness.
+                    </p> 
+                </a>
+                <a class="box3">   
+                    <h4>9. KEEP IN TOUCH WITH FAMILY AND FRIENDS </h4>
+                    <p>    
+                        We’re isolated from the people we usually spend time with but we can be connected with them via more
+                        means more than ever before. Make time to catch-up and have a virtual drink with your friends and family.
+                        Use the time to speak to relatives that you might not have spoken to in a while - maybe look to find out 
+                        via those family members about great-great-grandparents who lived through wars as well as pandemics. 
+                    </p>
+                </a>
+                <a class="box3">   
+                    <h4>10. ATTEND TO THE GARDEN </h4>
+                    <p>   
+                        Yes, I’m afraid now is the time to attend those garden jobs and chores. Your busy lifestyle usually means
+                        that things in the garden do not get done but now you don’t have that excuse. I had to face up to this
+                        reality, but once I had started doing some basic work in the garden I actually started to enjoy it. 
+                        Tidying up your garden, repainting your fences and any other jobs that need doing in your garden can 
+                        be done over a period of time when you feel like it and when the weather is good.
+                    </p>
+                </a>
+                <a class="box3">    
+                    <h4>11. START A DIY PROJECT</h4>
+                    <p>    
+                        If gardening in your free time sounds appealing, go one step further and start a DIY project. 
+                        Just fixing (or learning how to fix) general things around the house may be enough for you. After. 
+                        it will become apparent that it’s more than just the light bulb that needs fixing… the more time you 
+                        spend at home, the more you’ll realise how much work there is to be done! With all the spare time on your
+                        hands, there’s no better time to start filtering through those odd jobs that you just never got around to. 
+                        If this is how you’d like to spend your time, enrol in a DIY-related course to tackle even bigger projects
+                        in and around your home.
+                    </p>
+                </a>
+                <a class="box3">  
+                    <h4>12. GET ARTISTIC</h4>
+                    <p>
+                        DIY and gardening not quite right for you, but you’d like to do something creative? Art and crafts is 
+                        a great way to express yourself, learn a new skill, and help you see ordinary things in a whole new way and
+                        channel your creativity. You can paint canvasses, doodle in a sketchpad or draw in adult colouring books.
+                        Go a step further in this respect and take up knitting, candle-making and jewellery-making. Explore the 
+                        various websites that offer starter kits and ideas on arts and crafts activities you can undertake during
+                        this period of increased downtime.
+                    </p>
+                </a>
+                <a class="box3">  
+                    <h4>13. EXPERIMENT ON SOCIAL MEDIA</h4>
+                    <p>
+                        Sure, you use Facebook to connect with your friends and family and use LinkedIn for your professional 
+                        profile to keep track of your professional network. You also might use Twitter and Instagram occasionally.
+                         But you can do so much more and experiment with the platforms available to you as well as connect with 
+                         like-minded people on those platforms. 
+                        </p> 
+                    </a>
+                <a class="box3">  
+                    <h4>14. LISTEN TO MORE MUSIC</h4>
+                    <p>
+                        In your normal office environments, it’s likely that you would listen to radio channels or no music at all. 
+                        When working from home or in quarantine, you don’t have this restriction and can listen to anything you want.
+                         Why not spend time working through music albums, listening to new and potentially undiscovered music? You can 
+                         listen to new music from your favourite genres or find a list of best albums for the genre and listen to them 
+                         all, or even work your way through Rolling Stone’s 500 Greatest Albums of All Time list. You could even rate 
+                         all of the albums in a spreadsheet (or social media) as you go along as well as create your own Spotify 
+                         playlists. I’d also consider listening to more podcasts or audiobooks from #1.
+                        </p>
+                    </a>
+                <a class="box3">  
+                    <h4>15. MEMORISE THE PERIODIC TABLE </h4>
+                    <p>
+                        (Another one from my own list.) Set yourself a challenge and memorise the periodic table of elements.
+                        This is the tabular display of the chemical elements, which are arranged by atomic number, 
+                        electron configuration and recurring chemical properties, which put together in the table shows periodic trends. 
+                        There’s a lot to learn and to memorise here… perfect!
+                    </p>
+                </a>
+                <a class="box3">  
+                   <h4>16. VOLUNTEER</h4> 
+                    <p>
+                        With many furloughed or having limited hours of work, volunteering might be the most productive and rewarding route
+                        for you. But with the restrictions currently in place, you cannot go far and come into contact with people and you 
+                        might feel that your options are limited. Perhaps so. This doesn’t mean, however, that there aren’t any volunteering 
+                        opportunities available to you. 
+                    </p>
+                </a>
+                <a class="box3">  
+                    <h4>17. GO WALKING IN THE COUNTRYSIDE</h4>
+                    <p>
+                        Take advantage of the countryside that might surround you. Daily exercise and sunshine are two of the best things 
+                        you can do for your physical and mental health and providing that you are not breaking self-quarantining rules - such
+                        as walking in groups and not staying two meters away from others - you should set aside this as one of your primary
+                        routines. Doing so amongst nature will really make you a happier person, which will also help you boost your immune
+                        system, reduce anxiety as well as improve your athletic performance.
+                    </p>
+                </a>
+                <a class="box3">  
+                    <h4>18. LEARN A NEW LANGUAGE</h4>
+                    <p>
+                        How many times have you said that you’d like to learn a new language? I’m sure you have many times over the years. 
+                        Well, now you have time to do so. With apps like Memrise and Duolingo, you can do so easily and at no cost or you can 
+                        consider hiring a private tutor on a platform like Preply.
+                    </p>
+                </a>
+                <a class="box3">  
+                    <h4>19. CATCH UP ON YOUR SLEEP</h4>
+                    <p>
+                        Those early mornings and late nights that make up our usual routines sometimes take their toll on us. During this 
+                        period own increased downtime, be sure to sleep enough. Undertaking some of the activities on this list will help you
+                        sleep naturally, but ensure that you are going to bed at a reasonable time (and not binge-watching on Netflix as
+                        mentioned in #2). This is the time to ensure you are getting 8 hours sleep per night and you’ll feel invigorated 
+                        because of it.
+                    </p>
+                </a>
+                <a class="box3">      
+                    <h4>20. CREATE YOUR DEVELOPMENT PLAN</h4>
+                    <p>
+                        Much of the above focus on non-professional and work-related activities that you can do, and still be productive.
+                        However, from a long-term perspective, it makes sense to also work on your professional capabilities and skills that 
+                        you can offer your employer and future employers. We don’t know how long the lockdown period, or even the pandemic, 
+                        will last in its current state. Working environments might look very different when this does happen, therefore, it
+                        is important that your skills and abilities fit the market and role you operate within. Always keep your personal
+                        development plan near and work to improve your personal and professional situation. Reading books and enrolling on 
+                        a course might be enough… either way, always keep this in mind in case there are surprises later on.
+                    </p>
+                </a>
+                <a class="box3">      
+                    <h4>21. FORM A ROUTINE FOR YOUR NEW ACTIVITIES</h4>
+                    <p>
+                        Finally, and perhaps most importantly… be sure to write down a routine (with timescales) of the activities which you
+                        will be doing and trying for the first time on a weekly basis. Stick to your routine and form the habits to keep your
+                        working and keep you productive during this lockdown.
+                    </p>
+                </a>
+                <button class ="button" (click)="goBack()">Back</button>    
+            </div>
+            <div *ngSwitchCase="4">
+                <video controls>
+                <source src="/assets/data/Why Programming Is Important.mp4" type="video/mp4"></video>
+                <button class ="button" (click)="goBack()">Back</button>
+            </div>
+            <div *ngSwitchDefault>
+                <app-page-not-found></app-page-not-found>
+            </div>  
+</div>
